@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Tile" load_steps=2 format=3 uid="uid://c4rdrhlurbl12"]
+
+[ext_resource type="Script" path="res://scripts/tiles/tile.gd" id="1_v4w4m"]
+
+[resource]
+script = ExtResource("1_v4w4m")
+id = 3
+name = "Sand"
+dialogue_timeline = ""
