@@ -13,6 +13,5 @@ tile_set = ExtResource("1_ljnw6")
 
 [node name="Player" parent="." instance=ExtResource("2_mdasc")]
 position = Vector2(800, 1056)
-tap_threshold_seconds = null
 
 [node name="Camera2D" type="Camera2D" parent="Player"]

@@ -116,6 +116,7 @@ shape = SubResource("RectangleShape2D_r62ki")
 disabled = true
 
 [node name="GridMovement" parent="." node_paths=PackedStringArray("self_node") instance=ExtResource("3_co72y")]
+unique_name_in_owner = true
 self_node = NodePath("..")
 
 [connection signal="moving_finished" from="GridMovement" to="." method="_on_grid_movement_moving_finished"]
