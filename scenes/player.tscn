@@ -104,6 +104,7 @@ size = Vector2(32, 40)
 collision_layer = 2
 script = ExtResource("1_f36bm")
 sprite = NodePath("Sprite")
+raycast_mask = 13
 
 [node name="Sprite" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_0s6ni")
